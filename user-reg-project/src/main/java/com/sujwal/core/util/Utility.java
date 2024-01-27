@@ -43,8 +43,8 @@ public class Utility {
 			+ "";
 
 	public static void SendEmail(String userName,String email) {
-		final String username = "javateamtest401@gmail.com";
-		final String password = "Pvbjngpbmdunoopb";
+		final String username = "test@gmail.com";
+		final String password = "Test";
 		Properties props = new Properties();
 		props.put("mail.smtp.auth", true);
 		props.put("mail.smtp.authmail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
@@ -72,6 +72,6 @@ public class Utility {
 		}
 	}
 	public static void main(String[] args) {
-		SendEmail("Sujwal","sujwalboppana2000@gmail.com");
+		SendEmail("Sujwal","test@gmail.com");
 	}
 }
